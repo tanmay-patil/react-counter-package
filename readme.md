@@ -1,1 +1,1 @@
-# React NPM package for counter
+# React NPM package for counter.
