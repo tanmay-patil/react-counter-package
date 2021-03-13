@@ -1,0 +1,38 @@
+{
+  "name": "react-counter-package",
+  "version": "1.0.0",
+  "description": "This is my first publically published NPM package for React JS.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "files": ["dist"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanmay-patil/react-counter-package.git"
+  },
+  "author": "Tanmay Patil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanmay-patil/react-counter-package/issues"
+  },
+  "homepage": "https://github.com/tanmay-patil/react-counter-package#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "rollup": "^2.41.2",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.2.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  }
+}
